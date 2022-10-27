@@ -1,0 +1,18 @@
+<% for(var i = 0; i < user.data.length; i++) { 
+    %>
+<tr>
+    <td><%= i + 1 %></td>
+    <td><%= user.data[i].time %></td>
+    <td><%= user.data[i].weight %></td>
+    
+    <td><%= user.data[i].description %></td>
+    <td>
+        <a href="/update-user?id=<%= user.data._id%>" class="btn border-shadow update">
+            <span class="text-gradient"><i class="fas fa-pencil-alt"></i></span>
+        </a>
+        <a class="btn border-shadow delete" data-id=<%= user.data._id%> >
+            <span class="text-gradient"><i class="fas fa-times"></i></span>
+        </a>
+    </td>
+</tr>
+<% } %>

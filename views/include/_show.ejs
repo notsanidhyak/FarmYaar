@@ -1,0 +1,26 @@
+<% for(var i = 0; i < users.length; i++) { 
+    console.log('hello')
+    %>
+<tr>
+ 
+        
+    <td><%= i + 1 %></td>
+    <td><%= users[i].name %></td>
+    <td><%= users[i].id %></td>
+    
+    <td><%= users[i].phone %></td>
+    <td><%= users[i].village %></td>
+    <td>    <a href="/data/<%= users[i].id%>" class="btn border-shadow update">
+        <span class="text-gradient">L</span>
+    </a>
+        <a href="/update-user?id=<%= users[i]._id%>" class="btn border-shadow update">
+            <span class="text-gradient"><i class="fas fa-pencil-alt"></i></span>
+        </a>
+        <a class="btn border-shadow delete" data-id=<%= users[i]._id%> >
+            <span class="text-gradient"><i class="fas fa-times"></i></span>
+        </a>
+    </td>
+
+  
+</tr>
+<% } %>

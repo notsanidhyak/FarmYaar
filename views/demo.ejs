@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Queens Site</title>
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- aos css -->
+
+    <!-- custom stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Font awesome -->
+   <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+     <!-- Bootstrap scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+  <nav id="go-to-top" class="navbar navbar-expand-lg selectDisable">
+    <a class="navbar-brand" href="/">
+        Queens Site
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item navlink-border">
+                <a class="nav-link px-4" href="/courses"><i class="fa-solid fa-graduation-cap"></i> Learn Skill</a>
+            </li>
+            <li class="nav-item navlink-border">
+                <div class="dropdown show">
+                    <a class="nav-link px-4 dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fa-solid fa-landmark-flag"></i> Financial Help
+                    </a>
+                    
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" href="/scholarship">Scholarships</a>
+                        <a class="dropdown-item" href="/gov-scheme">Government Schemes</a>
+                        <a class="dropdown-item" href="/loan">Loan Facilities</a>
+                        <a class="dropdown-item" href="/loancalc">Loan Calculator</a>
+                    </div>
+                </div>
+                
+            </li>
+            <li class="nav-item navlink-border">
+                <div class="dropdown show">
+                    <a class="nav-link px-4 dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fa-sharp fa-solid fa-user-doctor"></i> Find Jobs
+                    </a>
+                    
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" href="/job2">Our Portal</a>
+                        <a class="dropdown-item" href="/jobs">Other Sites</a>
+                    </div>
+                </div>
+                
+            </li>
+            
+            <li class="nav-item">
+                <a class="nav-link px-4" href="/login"><button class="btn login-btn">Login</button></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link px-4" href="/helpline"><button class="btn login-btn"><i class="fa-solid fa-phone"></i> Helpline</button></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<style>
+    form {
+        max-width: 300px;
+        margin: 10px auto;
+        padding: 10px 20px;
+        background: #f4f7f8;
+        border-radius: 8px;
+      }
+      
+      h1 {
+        margin: 0 0 30px 0;
+        text-align: center;
+      }
+      
+      input[type="text"],
+      input[type="password"],
+      input[type="date"],
+      input[type="datetime"],
+      input[type="email"],
+      input[type="number"],
+      input[type="search"],
+      input[type="tel"],
+      input[type="time"],
+      input[type="url"],
+      textarea,
+      select {
+        background: rgba(255,255,255,0.1);
+        border: none;
+        font-size: 16px;
+        height: auto;
+        margin: 0;
+        outline: 0;
+        padding: 15px;
+        width: 100%;
+        background-color: #e8eeef;
+        color: #8a97a0;
+        box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+        margin-bottom: 30px;
+      }
+      
+      input[type="radio"],
+      input[type="checkbox"] {
+        margin: 0 4px 8px 0;
+      }
+      
+      select {
+        padding: 6px;
+        height: 32px;
+        border-radius: 2px;
+      }
+      
+      button {
+        padding: 19px 39px 18px 39px;
+        color: #FFF;
+        background-color: #4bc970;
+        font-size: 18px;
+        text-align: center;
+        font-style: normal;
+        border-radius: 5px;
+        width: 100%;
+        border: 1px solid #3ac162;
+        border-width: 1px 1px 3px;
+        box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+        margin-bottom: 10px;
+      }
+      
+      fieldset {
+        margin-bottom: 30px;
+        border: none;
+      }
+      
+      legend {
+        font-size: 1.4em;
+        margin-bottom: 10px;
+      }
+      
+      label {
+        display: block;
+        margin-bottom: 8px;
+      }
+      
+      label.light {
+        font-weight: 300;
+        display: inline;
+      }
+      
+      .number {
+        background-color: #5fcf80;
+        color: #fff;
+        height: 30px;
+        width: 30px;
+        display: inline-block;
+        font-size: 0.8em;
+        margin-right: 4px;
+        line-height: 30px;
+        text-align: center;
+        text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+        border-radius: 100%;
+      }
+      
+      @media screen and (min-width: 480px) {
+      
+        form {
+          max-width: 480px;
+        }
+      
+      }
+      
+</style>
+
+<section class="complaint">
+    <div class="container">
+
+      <div class="row">
+    <div class="col-md-12">
+      <form action="/add-data" method="post">
+        <h1> Data Form </h1>
+        
+        <fieldset>
+          
+          <legend><span class="number">1</span>  Details</legend>
+        
+          <label for="name">ID:</label>
+          <input type="text" id="ID" name="ID">
+        
+          <label for="email">Phone:</label>
+          <input type="text" id="mail" name="user_email">
+       
+          <label for="password">Age:</label>
+          <input type="text" id="password"       name="user_password">
+        
+                 
+        </fieldset>
+        <fieldset>  
+        
+          <legend><span class="number">2</span> Your Complaint</legend>
+          
+         <label for="bio">Complaint description:</label>
+          <textarea id="bio" name="user_bio"></textarea>
+        
+       
+        
+         <label for="job">Complaint type:</label>
+          <select id="job" name="user_job">
+            <optgroup label="Complaint type">
+              <option value="Domestic Abuse">Domestic Abuse</option>
+              <option value="Sexual Harasement">Sexual Harasement</option>
+              <option value="Cyber Abuse">Cyber Abuse</option>
+              <option value="Descrimination">Descrimination</option>
+              <option value="Women in distress">Women in distress</option>
+              <option value="violence">violence</option>
+            </optgroup>
+     
+          </select>
+          
+ 
+         </fieldset>
+       
+        <button type="submit">Submit</button>
+       </form>
+        </div>
+      </div>
+
+</html>
+
+    </div>
+</section>
+
+
+</body>
+
+</html>
