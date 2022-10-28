@@ -17,7 +17,7 @@ $("#update_user").submit(function(event){
 
 console.log(data)
     var request = {
-        "url" : `http://localhost:300/api/update-user/${data._id}`,
+        "url" : `https://krishna-cold.herokuapp.com/api/update-user/${data._id}`,
         "method" : "PUT",
         "data" : data
     }
@@ -39,7 +39,7 @@ $("#update_data").submit(function(event){
 
 console.log(data)
     var request = {
-        "url" : `http://localhost:300/data/${data.id}`,
+        "url" : `https://krishna-cold.herokuapp.com/data/${data.id}`,
         "method" : "PUT",
         "data" : data
     }
@@ -56,7 +56,7 @@ if(window.location.pathname == "/"){
         var id = $(this).attr("data-id")
 
         var request = {
-            "url" : `http://localhost:300/api/users/${id}`,
+            "url" : `https://krishna-cold.herokuapp.com/api/users/${id}`,
             "method" : "DELETE"
         }
 
