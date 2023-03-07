@@ -1,5 +1,9 @@
 # FarmYaar
-Empowering Farmers Worldwide - Grow Smart with FarmYaar - Your Multilingual Weather, Soil and Community Partners
+Empowering Farmers Worldwide - Grow Smart with FarmYaar - Your Multilingual Weather, Soil and Community Partners.
+This project was developed as a part of Reckon 4.0
+Made with ❤ by Team Caffeinated Coders.
+
+[https://docs.google.com/presentation/d/1E7od2RZgQwKtFIx1bgUIR9QMubnggDjNs_lMSbQ14b4/edit?usp=sharing](#Link to Presentation)
 
 ## Introduction
 FarmYaar is a game-changing app that addresses some of the most pressing issues faced by farmers worldwide. The app aims to help farmers grow smarter by leveraging cutting-edge technology to provide crucial insights and support
