@@ -41,7 +41,7 @@ Farmers today face issues with irrigation, a lack of weather information, a lack
 
 * The app will also provide valuable information about soil types and the crops that can be grown in a specific area using image detection with the help of OpenCV, which is especially helpful for farmers with limited knowledge.
 
-* Finally, Farmyaar will be multilingual and user-friendly, enabling farmers from different regions to use it with ease and convenience. By addressing these challenges, Farmyaar will empower farmers worldwide and revolutionize the agricultural sector.
+* Finally, Farmyaar will be multilingual and user-friendly, enabling farmers from different regions to use it with ease and convenience. By addressing these challenges, Farmyaar will empower our farmers worldwide and revolutionize the agricultural sector.
 
 ## Images
 
