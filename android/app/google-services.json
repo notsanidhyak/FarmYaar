@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "989225726554",
+    "project_id": "reckon-farmyaar",
+    "storage_bucket": "reckon-farmyaar.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:989225726554:android:e322436626d106326cde63",
+        "android_client_info": {
+          "package_name": "com.example.reckon_farmyaar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "989225726554-smu3eqcd8b9mam33n4h9n2o15vigkmub.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.reckon_farmyaar",
+            "certificate_hash": "5ae33f3e9420de5f7380a0fd11cfa7270249e2b7"
+          }
+        },
+        {
+          "client_id": "989225726554-spa17248sdslhtfetkvdnakieqfefp80.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyNH1YLw4X9YzThQkkOp0R5kDXkDX_C5Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "989225726554-spa17248sdslhtfetkvdnakieqfefp80.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
