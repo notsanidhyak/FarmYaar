@@ -1,8 +1,8 @@
 const mongoose = require("mongoose");
 
 const dataSchema = new mongoose.Schema({
-  id: { type: String },
-  data:
+  data: { type: String },
+  name:{type:String}
 
 });
 
