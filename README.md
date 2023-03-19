@@ -5,6 +5,8 @@
 This project was developed as a part of Hackathon: **Reckon 4.0** <br/>
 Made with ❤ by Team Caffeinated Coders.
 
+Thanks to Postman! Here's the public workspace link: https://www.postman.com/warped-shuttle-183405/workspace/farmyaar-publicworkspace/collection/23728173-8e768c32-3a44-44f4-b463-7202cacb329e?ctx=documentation
+
 [Link to Presentation](https://docs.google.com/presentation/d/1E7od2RZgQwKtFIx1bgUIR9QMubnggDjNs_lMSbQ14b4/edit?usp=sharing)
 
 
